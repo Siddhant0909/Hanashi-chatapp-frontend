@@ -37,7 +37,7 @@ const Sidebar = () => {
               onChange={(e) => setShowOnlineOnly(e.target.checked)}
               className="checkbox checkbox-sm"
             />
-            <span className="text-sm">show online only</span>
+            <span className="text-sm">show online users</span>
           </label>
           <span className="text-xs text-zinc-500">
             ({onlineUsers.length - 1} online)
@@ -45,7 +45,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <div className="w-full py-3 overflow-y-auto">
+      <div className="w-full py-3 overflow-y-auto scrollbar-none">
         {filteredUsers.map((user) => (
           <button
             key={user._id}
