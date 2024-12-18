@@ -1,12 +1,11 @@
 import daisyui from "daisyui";
-const scrollbar = require("tailwind-scrollbar-daisyui");
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
-  plugins: [daisyui, scrollbar],
+  plugins: [daisyui],
   daisyui: {
     themes: [
       "light",
