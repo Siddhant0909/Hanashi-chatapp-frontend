@@ -6,6 +6,10 @@ Hanashi is a modern chat application built using the MERN stack, enabling real-t
 
 Check out the live application here: [Hanashi Chat App](https://hanashi-chat.vercel.app/) 
 
+## Backend Repository
+
+The backend codebase for Hanashi can be found here: [Hanashi Chat App Backend](https://github.com/Siddhant0909/Hanashi-chatapp-backend)  
+
 ## Features
 
 - **Real-Time Messaging**: Powered by Socket.IO for instant communication.
