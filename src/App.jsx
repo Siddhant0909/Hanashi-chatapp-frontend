@@ -20,7 +20,7 @@ const App = () => {
   useEffect(() => {
     checkAuth();
   }, []);
-  console.log(import.meta.env.VITE_MODE === "development");
+  console.log(import.meta.env.VITE_SERVER_URL);
 
   if (isCheckingAuth && !authUser)
     return (
